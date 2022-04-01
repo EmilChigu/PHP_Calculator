@@ -1,0 +1,88 @@
+body {
+	height: 100vh;
+	display: flex;
+
+	justify-content: center;
+	align-items: center;
+}
+
+.calc-frame {
+	width: 300px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-radius: 8px;
+	border-radius: 8px;
+	background: #4d4d4d;
+	box-shadow: 4px 4px 1px #272727, -4px -4px 1px #747474;
+	padding: 0 0.4em;
+}
+
+.calc-screen {
+	margin: 0.5rem;
+	font-family: 'VT323', monospace;
+	border-radius: 5px;
+	border-style: inset;
+	padding: 5px;
+	width: 90%;
+	height: 30px;
+	font-size: 2em;
+	text-align: right;
+	background-color: whitesmoke;
+}
+H2,
+p {
+	margin: 0;
+}
+
+.model {
+	font-family: 'VT323', monospace;
+	font-size: 1rem;
+	text-align: center;
+	justify-self: center;
+	margin-right: auto;
+}
+
+.brand {
+	margin-top: 1em;
+}
+
+.calc-buttons {
+	margin: 0.5rem;
+	padding: 0.2rem;
+	font-family: 'Abel', sans-serif;
+}
+
+.row {
+	display: flex;
+	justify-content: space-between;
+}
+
+.button {
+	width: 55px;
+	padding: 0.5rem 1rem;
+	font-size: 1.2em;
+	margin: 0.5rem;
+	border-radius: 8px;
+	background: linear-gradient(145deg, #cacaca, #f0f0f0);
+	box-shadow: 1px 1px 0px #afafaf, -1px -1px 0px #ffffff;
+}
+
+.special-button {
+	width: 50%;
+	padding: 0.5rem 1rem;
+	font-size: 1.2em;
+	margin: 0.5rem;
+	border-radius: 8px;
+	background: linear-gradient(145deg, #cacaca, #f0f0f0);
+	box-shadow: 1px 1px 0px #afafaf, -1px -1px 0px #ffffff;
+}
+
+.button:hover {
+	cursor: pointer;
+}
+
+.special-button:hover {
+	cursor: pointer;
+}
