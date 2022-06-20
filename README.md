@@ -1,2 +1,2 @@
 # PHP_Calculator
-A simple calculator using PHP and JS
+Playing around with PHP and JS to make a simple calculator.
